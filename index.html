@@ -1,960 +1,197 @@
 <!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	
+	<!-- title -->
+	
+	<title>
+	 
+	CJ’s Blog
+	</title>
+	
+	<!-- keywords,description -->
+	 
+		<meta name="description" content="广西师范大学计算机教学实验中心" />
+	
+
+	<!-- favicon -->
+	
+	<link rel="shortcut icon" href="/favicon.ico">
+	
 
 
-<html lang="zh-CN">
-  
+	<!-- search -->
+	<script>
+		var searchEngine = "https://www.google.com/search?q=";
+		if(typeof searchEngine == "undefined" || searchEngine == null || searchEngine == ""){
+			searchEngine = "https://www.google.com/search?q=";
+		}
+		var homeHost = "wujun234.com";
+		if(typeof homeHost == "undefined" || homeHost == null || homeHost == ""){
+			homeHost = window.location.host;
+		}
+	</script>
 
-    <head>
-      <meta charset="utf-8" />
-        
-      <meta name="description" content="广西师范大学计算机教学实验中心" />
-      
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1, maximum-scale=1"
-      />
-      <title> CJ‘s Blog</title>
-  <meta name="generator" content="hexo-theme-ayer">
-      
-      <link rel="shortcut icon" href="/favicon.ico" />
-       
-<link rel="stylesheet" href="/dist/main.css">
 
-      
-<link rel="stylesheet" href="/css/fonts/remixicon.css">
+	
+<link rel="stylesheet" href="/css/main.css">
 
-      
-<link rel="stylesheet" href="/css/custom.css">
- 
-      <script src="https://cdn.staticfile.org/pace/1.2.4/pace.min.js"></script>
-       
- 
+	
+<link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
 
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-bulma@5.0.1/bulma.min.css"
-      />
-      <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.19/dist/sweetalert2.min.js"></script>
+	
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/styles/darcula.min.css">
 
-      <!-- mermaid -->
-      
-      <style>
-        .swal2-styled.swal2-confirm {
-          font-size: 1.6rem;
-        }
-      </style>
-    </head>
-  </html>
-</html>
+	
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 
+
+	
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+
+	
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+	
+<script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.17.1/build/highlight.min.js"></script>
+
+	
+<script src="https://cdn.jsdelivr.net/npm/jquery-pjax@2.0.1/jquery.pjax.min.js"></script>
+
+	
+<script src="/js/main.js"></script>
+
+
+	
+		
+<script src="https://cdn.jsdelivr.net/npm/leancloud-storage/dist/av-min.js"></script>
+
+		
+<script src="https://cdn.jsdelivr.net/npm/valine@v1.5.1/dist/Valine.min.js"></script>
+
+	
+	
+
+<meta name="generator" content="Hexo 6.3.0"></head>
 
 <body>
-  <div id="app">
+	<header id="header">
+    <a id="title" href="/" class="logo">CJ’s Blog</a>
+
+	<ul id="menu">
+    
+
+    
+
+    
+
     
       
-    <main class="content on">
       
-<section class="cover">
-    
-      
-      <a class="forkMe" href="https://github.com/Shen-Yu/hexo-theme-ayer"
-        target="_blank"><img width="149" height="149" src="/images/forkme.png"
-          class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
-    
-  <div class="cover-frame">
-    <div class="bg-box">
-      <img src="/images/cover1.jpg" alt="image frame" />
-    </div>
-    <div class="cover-inner text-center text-white">
-      <h1><a href="/">CJ‘s Blog</a></h1>
-      <div id="subtitle-box">
-        
-        <span id="subtitle"></span>
-        
-      </div>
-      <div>
-        
-      </div>
-    </div>
-  </div>
-  <div class="cover-learn-more">
-    <a href="javascript:void(0)" class="anchor"><i class="ri-arrow-down-line"></i></a>
-  </div>
-</section>
-
-
-
-<script src="https://cdn.staticfile.org/typed.js/2.0.12/typed.min.js"></script>
-
-
-<!-- Subtitle -->
-
-  <script>
-    try {
-      var typed = new Typed("#subtitle", {
-        strings: ['面朝大海，春暖花开', '愿你一生努力，一生被爱', '想要的都拥有，得不到的都释怀'],
-        startDelay: 0,
-        typeSpeed: 200,
-        loop: true,
-        backSpeed: 100,
-        showCursor: true
-      });
-    } catch (err) {
-      console.log(err)
-    }
-  </script>
-  
-<div id="main">
-  <section class="outer">
-  
-  <ul class="ads">
-    
-        <li>
-            <a target="_blank" rel="noopener" href="https://curl.qcloud.com/kvO7hb43">
-                <img src="https://pic.imgdb.cn/item/62174b452ab3f51d912a5ccc.jpg" width="300" alt="云服务器限时秒杀">
-            </a>
+        <li class="menu-item">
+          <a href='' class="menu-item-link" target="_blank">
+            Tree
+          </a>
         </li>
-    
-        <li>
-            <a target="_blank" rel="noopener" href="https://www.vultr.com/?ref=8630075">
-                <img src="https://pic.imgdb.cn/item/62174b452ab3f51d912a5cd7.png" width="300" alt="vultr优惠vps">
-            </a>
+      
+        <li class="menu-item">
+          <a href='' class="menu-item-link" target="_blank">
+            UidGenerator
+          </a>
         </li>
-    
-</ul>
-  
-  
-  
-
-<div class="notice" style="margin-top:50px">
-    <i class="ri-heart-fill"></i>
-    <div class="notice-content" id="broad"></div>
-</div>
-<script type="text/javascript">
-    fetch('https://v1.hitokoto.cn')
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById("broad").innerHTML = data.hitokoto;
-        })
-        .catch(console.error)
-</script>
-
-<style>
-    .notice {
-        padding: 20px;
-        border: 1px dashed #e6e6e6;
-        color: #969696;
-        position: relative;
-        display: inline-block;
-        width: 100%;
-        background: #fbfbfb50;
-        border-radius: 10px;
-    }
-
-    .notice i {
-        float: left;
-        color: #999;
-        font-size: 16px;
-        padding-right: 10px;
-        vertical-align: middle;
-        margin-top: -2px;
-    }
-
-    .notice-content {
-        display: initial;
-        vertical-align: middle;
-    }
-</style>
-  
-  <article class="articles">
-    
-    
-    
-    
-    <article
-  id="post-计算机基础知识"
-  class="article article-type-post"
-  itemscope
-  itemprop="blogPost"
-  data-scroll-reveal
->
-  <div class="article-inner">
-     
-    <div class="article-meta">
-      <a href="/2023/05/22/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/" class="article-date">
-  <time datetime="2023-05-22T03:18:57.173Z" itemprop="datePublished">2023-05-22</time>
-</a>    
-    </div>
       
-    <div class="article-entry" itemprop="articleBody">
-       
-  <h1 id="Legacy和UEFI"><a href="#Legacy和UEFI" class="headerlink" title="Legacy和UEFI"></a>Legacy和UEFI</h1><h2 id="Leagecy"><a href="#Leagecy" class="headerlink" title="Leagecy"></a>Leagecy</h2><h3 id="两种类别"><a href="#两种类别" class="headerlink" title="两种类别"></a>两种类别</h3><p>Legacy就是传统Bios（Basic Input Output System基本输入输出系统），在机房中我们主要使用的是AMI bios（还有一种是Award Bios）</p>
-<p>![image-20221016121604207](..&#x2F;..&#x2F;..&#x2F;BaiduSyncdisk&#x2F;计算机基础知识&#x2F;图片&#x2F;Award Bios.jpg)</p>
-<div align="center">	图：Award Bios</div>
-
-
-
-<p>![IMG_20221016_121844](..&#x2F;..&#x2F;..&#x2F;BaiduSyncdisk&#x2F;计算机基础知识&#x2F;图片&#x2F;Ami Bios.jpg)</p>
-<div align="center">	图：Ami Bios</div>
-
-<p><strong>广西师范大学理科楼的机房主要是采用Ami Bios</strong></p>
-<h3 id="Bios的功能"><a href="#Bios的功能" class="headerlink" title="Bios的功能"></a>Bios的功能</h3><p>bios功能主要是负责电脑启动时的检测、初始化和引导装入系统，在电脑运行时还负责程序服务处理和硬件中断处理。bios只是一段程序存储在bios芯片中（通常为rom）。</p>
-<ol>
-<li><p>自检</p>
-<p>对硬件检测也叫做加电自检(POST)，它是检查电脑硬件是否良好，例如硬盘。</p>
-<p>自检出现问题会通过<strong>蜂鸣器</strong>报警</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221339182.jpg" alt="image-20221007142430451"></p>
-<div align="center">	图：Ami Bios报警含义</div>
-
-
-
-<p><img src="/../../../BaiduSyncdisk/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%89%87/%E4%B8%BB%E6%9D%BF%E4%B8%8A%E7%9A%84%E8%9C%82%E9%B8%A3%E5%99%A8.jpg" alt="image-20221016123605668"></p>
-<div align="center">	图：主板上的蜂鸣器</div>
-</li>
-<li><p>初始化</p>
-<p>初始化部分包括创建中断向量（中断服务程序的硬件基础）、设置寄存器、对一些外部设备进行初始化和检测等。主要是对硬件设置一些参数（CMOS的参数），当电脑启动时会读取这些参数，并和实际硬件设置进行比较，如果不符合，会影响系统的启动。</p>
-</li>
-<li><p>引导</p>
-<p>引导操作系统装入内存，BIOS先从硬盘或光盘的开始扇区读取引导记录，如果没有找到，则会在显示器上显示没有引导设备；如果找到，引导记录会把电脑的控制权转给引导记录，由引导记录把操作系统装入电脑，在电脑启动成功后，BIOS的这部分任务就完成了。</p>
-</li>
-<li><p>进行coms设置</p>
-</li>
-</ol>
-<h3 id="Bios和CMOS的关系"><a href="#Bios和CMOS的关系" class="headerlink" title="Bios和CMOS的关系"></a>Bios和CMOS的关系</h3><p><strong>Bios</strong>：bios是一个程序，存储在Bios芯片中，Bios芯片为ROM（Read Only Memory，只可读，断电数据不会消失，断电不会消失这个特性在后面引导有很大作用）。</p>
-<p><strong>CMOS</strong>：集成在南桥中的芯片，存储电脑硬件配置信息。通过小电池供电。CMOS芯片为RAM（Random Access Memory，可随机读写，断电后丢失其存储内容，为了防止断电丢失信息有小电池供电）</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221338235.jpg" alt="主板上的小电池"></p>
-<div align="center">	图：主板上的小电池</div>
-
-<p><strong>我们可以用存储在bios芯片中的bios程序中的cmos设置功能对cmos芯片中存储的cmos设置信息进行设置。</strong></p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221338546.png" alt="image-20230505111219517"></p>
-<p><strong>可能会有点疑惑，我们按F1明明进的是Bios却显示的是CMOS的内容？</strong></p>
-<p><strong>解释：按F1执行Bios可视化的程序，然后读取CMOS的内容，并通过Bios程序对CMOS的存储内容进行修改</strong></p>
-<h2 id="UEFI"><a href="#UEFI" class="headerlink" title="UEFI"></a>UEFI</h2><p>UEFI(Unified Extensible Firmware Interface统一可扩展固件接口)，现在的新式电脑一般采用UEFI</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221338589.jpg" alt="天选UEFI"></p>
-<div align="center">	图：天选UEFI</div>
-
-<h2 id="Legacy和UEFI区别"><a href="#Legacy和UEFI区别" class="headerlink" title="Legacy和UEFI区别"></a>Legacy和UEFI区别</h2><p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221338783.jpg" alt="uefi和legacy区别1"></p>
-<div align="center">	图：UEFI和Legacy区别1</div>
-
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221338781.jpg" alt="uefi和legacy区别2"></p>
-<div align="center">	图：UEFI和Legacy区别2</div>
-
-<p>采用UEFI bios开机更快，因为uefi减少了bios自检步骤</p>
-<h1 id="硬盘"><a href="#硬盘" class="headerlink" title="硬盘"></a>硬盘</h1><p><a target="_blank" rel="noopener" href="http://www.ssdfans.com/">http://www.ssdfans.com/</a></p>
-<h2 id="机械硬盘-HHD"><a href="#机械硬盘-HHD" class="headerlink" title="机械硬盘(HHD)"></a>机械硬盘(HHD)</h2><h3 id="机械硬盘内部的结构"><a href="#机械硬盘内部的结构" class="headerlink" title="机械硬盘内部的结构"></a>机械硬盘内部的结构</h3><p><img src="/../../../BaiduSyncdisk/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%89%87/%E6%9C%BA%E6%A2%B0%E7%A1%AC%E7%9B%98%E7%BB%93%E6%9E%84.jpg" alt="机械硬盘结构"></p>
-<div align="center">	图：机械硬盘结构</div>
-
-<p>机械磁盘从上到下有许多盘面，在每一个盘面中以某一距离为半径的圆圈为磁道，磁道由可以划分为若干个小部分称为扇区，不同盘面的同一半径的磁道组成了柱面。</p>
-<h3 id="机械硬盘外部结构"><a href="#机械硬盘外部结构" class="headerlink" title="机械硬盘外部结构"></a>机械硬盘外部结构</h3><p><img src="/../../../BaiduSyncdisk/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%89%87/%E6%9C%BA%E6%A2%B0%E7%A1%AC%E7%9B%98%E5%A4%96%E9%83%A8%E7%BB%93%E6%9E%84.jpg" alt="机械硬盘外部结构"></p>
-<div align="center">	图：机械硬盘外部结构</div>
-
-<p>电路板上面主要有硬盘BIOS、硬盘缓存（CACHE）和主控制芯片等单元；</p>
-<p><strong>硬盘Bios</strong>：其内部固化的程序可以进行硬盘的初始化，执行加电和启动主轴电机，加电初始寻道、定位以及故障检测等</p>
-<p><strong>主控芯片</strong>：相当于主机的cpu，负责硬盘的数据交换和处理</p>
-<p><strong>缓存</strong>：协调硬盘与主机在数据处理速度上的差异而设计的（如果访问的数据正好在缓冲中命中，则不需要访问磁盘扇区）</p>
-<p><strong>接口：</strong>有数据线接口和电源线接口</p>
-<p><a target="_blank" rel="noopener" href="https://baijiahao.baidu.com/s?id=1700791672175613732&wfr=spider&for=pc">https://baijiahao.baidu.com/s?id=1700791672175613732&amp;wfr=spider&amp;for=pc</a></p>
-<h3 id="读写原理"><a href="#读写原理" class="headerlink" title="读写原理"></a>读写原理</h3><p>通过磁头磁性改变和读取盘面磁性</p>
-<h2 id="固态硬盘（SSD）"><a href="#固态硬盘（SSD）" class="headerlink" title="固态硬盘（SSD）"></a>固态硬盘（SSD）</h2><h3 id="固态硬盘的结构"><a href="#固态硬盘的结构" class="headerlink" title="固态硬盘的结构"></a>固态硬盘的结构</h3><ol>
-<li>主控芯片</li>
-<li>闪存颗粒（访问时延是磁盘的千分之一到百分之一）</li>
-<li>缓存芯片（存储FTL表，进行闪存颗粒的物理的物理地址和逻辑地址的转换）</li>
-</ol>
-<h3 id="FTL"><a href="#FTL" class="headerlink" title="FTL"></a>FTL</h3><p>功能：</p>
-<ol>
-<li>逻辑地址转为物理地址</li>
-<li>垃圾回收</li>
-</ol>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305051136941.png" alt="image-20230505113637887"></p>
-<p>例如：Block x和Block y中ABC，DEFG为有效数据，垃圾回收就是把一个或者几个Block上的有效数据搬出来集中写到某个空闲Block上（比如Block z）。当这些Block上的有效数据都搬走后，FTL便能擦除这些Block，然后又能把这些Block拿出来供SSD写入新的数据了。</p>
-<ol start="3">
-<li>磨损均衡</li>
-</ol>
-<p>闪存都是有寿命的，每个闪存块不能一直写数据，因此，为保证最大的数据写入量，FTL必须尽量让每个闪存块均衡写入，这就是磨损平衡（Wear Leveling）。</p>
-<h3 id="基本信息"><a href="#基本信息" class="headerlink" title="基本信息"></a>基本信息</h3><ol>
-<li>容量</li>
-</ol>
-<p><strong>SSD容量是指提供给终端用户使用的最终容量大小</strong>，以字节（Byte）为单位。这里要注意，<strong>标称的数据都以十进制为单位的，而计算机识别其容量的的时候是二进制识别</strong>，同样一组数据，二进制比十进制会多出7%的容量，例如：</p>
-<p>十进制128GB：128×1000×1000×1000&#x3D;128000 000000字节</p>
-<p>二进制128GB：128×1024×1024×1024&#x3D;137438 953472字节</p>
-<p>以二进制为单位的容量行业内称为裸容量，以十进制为单位的容量称为用户容量。</p>
-<p>生产：二进制512G</p>
-<p>标识：十进制512G</p>
-<p>识别：二进制512G</p>
-<p>对于闪存本身，它是裸容量。那么为什么要用10进制标识呢？为什么要隐藏掉那7%的容量呢？为什么计算机二进制识别也只能识别到剩下的93%的空间呢？</p>
-<p>主控内部会有很多的优化算法去针对颗粒内部存储的数据进行管理和迁移以达到不同颗粒的耗损和负载是相同的，同时固态硬盘还要经常进行GC垃圾回收操作，在一堆算法的加持下才能让我们的固态硬盘始终保持在高性能的水平。但是这些算法需要经常性的变更和迁移数据，<strong>所以主控需要预留出来一部分空间以便执行这些优化操作这部分空间就是我们平时说的OP空间。</strong>公式是：</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305051406128.png" alt="image-20230505140620081"></p>
-<ol start="2">
-<li>介质信息</li>
-</ol>
-<p>闪存分SLC、MLC、TLC（甚至QLC），它指的是一个存储单元存储的比特数。</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221338684.png" alt="image-20230505140704504"></p>
-<h3 id="性能剖析"><a href="#性能剖析" class="headerlink" title="性能剖析"></a>性能剖析</h3><p>性能指标：</p>
-<p>硬盘性能指标一般包括<strong>IOPS</strong>（Input Output Operations Per Second，<strong>反映的是随机读写性能</strong>）、<strong>吞吐量</strong>（Throughput，单位MB&#x2F;s，<strong>反映的是顺序读写性能</strong>）、<strong>Response Time&#x2F;Latency</strong>（<strong>响应时间&#x2F;时延</strong>，单位ms或μs）。</p>
-<ol>
-<li><strong>IOPS</strong>：单位IOPS，<strong>即设备每秒完成IO请求数，一般是小块数据读写命令的响应次数，比如4KB数据块尺寸</strong>。IOPS数字越大越好。</li>
-<li><strong>吞吐量</strong>：单位MB&#x2F;s，<strong>即每秒读写命令完成的数据传输量，也叫带宽（Bandwidth）</strong>，一般是大块数据读写命令，比如512KB数据块尺寸。吞吐量越大越好。</li>
-<li>响应时间：也叫时延（Latency），<strong>即每个命令从发出到收到状态回复所需要的响应时间</strong>，时延指标有平均时延（Average Latency）和最大时延两项（Max Latency）。响应时间越小越好。</li>
-</ol>
-<p>访问模式：</p>
-<ol>
-<li>Random&#x2F;Sequential：随机（Random）和连续（Sequential）数据命令请求。何为随机和连续？指的是前后两条命令LBA地址（逻辑块地址）是不是连续的，连续的地址称为Sequential，不连续的地址称为Random。</li>
-<li>Block Size：块大小，即单条命令传输的数据大小，性能测试从4KB～512KB不等。<strong>随机测试一般用小数据块，比如4KB；顺序测试一般用大块数据</strong>，比如512KB。</li>
-<li>Read&#x2F;Write Ratio：读写命令数混合的比例。</li>
-</ol>
-<p>任何测试负荷（workload）都是这些模式的组合，比如：</p>
-<ol>
-<li>顺序读测试：指的是LBA连续读，块大小为256KB、512KB等大尺寸数据块，读写比例为100%：0；</li>
-<li>随机写测试：指的是LBA不连续的写，块大小一般为4KB，读写比例为0:100%；</li>
-<li>随机混合读写：指的是LBA不连续的读写混合测试，块大小一般为4KB，读写保持一定的比例。</li>
-</ol>
-<h3 id="寿命剖析"><a href="#寿命剖析" class="headerlink" title="寿命剖析"></a>寿命剖析</h3><p>衡量SSD寿命主要有两个指标，一是<strong>DWPD（Drive Writes Per Day），即在SSD保质期内，用户每天可以把盘写满多少次；</strong>另一指标是<strong>TBW（Terabytes Written），在SSD的生命周期内可以写入的总的字节数。</strong></p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221338237.png" alt="image-20230505142839002"></p>
-<p>NAND PE Cycles：SSD使用的闪存标称写擦除次数，如3K、5K。</p>
-<p> Capacity：SSD单盘用户可使用容量</p>
-<p>WA：写入放大系数，这跟SSD FW的设计和用户的写入的数据类型（顺序写还是随机写）强相关。</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221338156.png" alt="image-20230505142921526"></p>
-<h3 id="存储原理"><a href="#存储原理" class="headerlink" title="存储原理"></a>存储原理</h3><p>固态硬盘利用闪存进行存储电子，闪存基本存储单元（Cell）是一种类NMOS的双层浮栅（Floating Gate）MOS管，其中对电子的数量的划分可设置一个浮栅存储多少bit，如下图：</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221339017.png" alt="image-20230505113019971"></p>
-<p>对于多bit数据，则是对电子数量进行更细致的划分：</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221339760.png" alt="image-20230505113115075"></p>
-<p>一个存储单元存储1bit数据的闪存，我们叫它为SLC（Single Level Cell），存储2bit数据的闪存为MLC（Multiple Level Cell），存储3bit数据的闪存为TLC（Triple Level Cell）</p>
-<p>同样面积的一个存储单元，SLC、MLC和TLC分别可以存储1bit、2bit、3bit的数据，所以在同样面积的DIE上，闪存容量依次变大。</p>
-<p><strong>但同时，一个存储单元电子划分得越多，那么在写入的时候，控制进入浮栅极的电子个数就要越精细，所以写耗费的时间就越长；同样的，读的时候，需要尝试用不同的参考电压去读取，一定程度上加长了读取时间（不过相对写来说，对读的影响更小）。当写入相同大小数据时，我们会看到在性能上，TLC不如MLC, MLC不如SLC，因为SLC为粗略控制且同一时间并发运行的数量更多。</strong></p>
-<p><a target="_blank" rel="noopener" href="http://www.minitu.cn/faq/20181221.html">http://www.minitu.cn/faq/20181221.html</a></p>
-<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1aF411u7Ct/?spm_id_from=333.999.0.0&vd_source=7f8c0def2d7fa1febe6d3255a7889bca">https://www.bilibili.com/video/BV1aF411u7Ct/?spm_id_from=333.999.0.0&amp;vd_source=7f8c0def2d7fa1febe6d3255a7889bca</a></p>
-<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1dE411k7tU/?vd_source=7f8c0def2d7fa1febe6d3255a7889bca">https://www.bilibili.com/video/BV1dE411k7tU/?vd_source=7f8c0def2d7fa1febe6d3255a7889bca</a></p>
-<h3 id="读写擦原理"><a href="#读写擦原理" class="headerlink" title="读写擦原理"></a>读写擦原理</h3><p>擦除：电子从浮栅到沟道</p>
-<p>写：电子从沟道到浮栅</p>
-<p>读：感应电子数量判断状态</p>
-<h3 id="闪存特性"><a href="#闪存特性" class="headerlink" title="闪存特性"></a>闪存特性</h3><ol>
-<li>闪存块（Block）需先擦除才能写入，不能覆盖写（Update in Place）。</li>
-</ol>
-<p>由于闪存块不能覆盖写，当写入一笔新的数据时，不能直接在老地方更改，必须写到一个新的位置（更新数据），因此，FW（FirmWare，固件）需要维护一张逻辑地址到物理地址的映射表。另外，<strong>往一个新的位置写入数据，会导致老位置上的数据无效化（更新数据），这些数据就变为了垃圾数据。垃圾数据会占用闪存空间，当闪存可用空间不够时，FTL需要做垃圾回收，即把若干个闪存块上的有效数据搬出，写到某个新的闪存块，然后把这些之前的闪存块擦除，得到可用的闪存块，这就是GC（Garbage Collection，垃圾回收），是FTL需要做的一件重要的事情。</strong></p>
-<ol start="2">
-<li>闪存块都是有一定寿命的。</li>
-</ol>
-<p>每擦除一次闪存块，都会对闪存块造成磨损，因此闪存块都是有寿命的，可以用PE（Program&#x2F;EraseCount）数衡量。我们不能集中往某几个闪存块上写数据，不然这几块很快就会因PE耗尽而死亡，这不是我们想看到的。我们期望所有闪存块都用来均摊数据的写入，而不是有些块飞快磨损，而其他块毫无作为。所以FTL需要做Wear Leveling，让数据写入均摊到每个闪存块上，即让每个块磨损都差不多，从而保证SSD具有最大的数据写入量。</p>
-<ol start="3">
-<li>每个闪存块读的次数是有限的，读得太多了，上面的数据便会出错，造成读干扰（Read Disturb）问题。</li>
-</ol>
-<p>FTL需要处理读干扰问题，当某个闪存块读的次数将要达到一定阈值时，FTL需要把这些数据从该闪存块上搬走，从而避免数据出错。</p>
-<ol start="4">
-<li>闪存的数据保持（Data Retention）问题。</li>
-</ol>
-<p>由于电荷的流失，存储在闪存上的数据是会丢失的。这个时间长则十多年，短则几年、几个月，甚至更短（这是在常温下，如果是在高温环境下，电荷流失速度会加快，数据保存的时间就更短了）。</p>
-<p>如果SSD不上电，FTL对此也是毫无办法，因为没有运行机会。但一旦上电，FTL就需要对此做点什么，比如扫描闪存，发现是否存在数据保持问题，如果存在，则需要搬动数据，防患于未然。好的FTL，就需要有处理数据保持问题的能力。</p>
-<h3 id="FTL映射"><a href="#FTL映射" class="headerlink" title="FTL映射"></a>FTL映射</h3><ol>
-<li>块映射</li>
-</ol>
-<p> 块映射块映射中，以闪存的块为映射粒度，一个用户逻辑块可以映射到任意一个闪存物理块。用户即使只写入一个逻辑页，也需要把整个物理块数据先读出来，然后改变那个页的数据，最后再整个块写入。</p>
-<p>块映射有好的连续大尺寸的读写性能，但小尺寸数据的写性能是非常糟糕的。</p>
-<ol start="2">
-<li>页映射</li>
-</ol>
-<p>页映射中，以闪存的页为映射粒度，一个逻辑页可以映射到任意一个物理页中，因此每一个页都有一个对应的映射关系。</p>
-<p>由于闪存页远比闪存块多，因此需要更多的空间来存储映射表。但它的性能更好，尤其体现在随机写上面。为追求性能，SSD一般都采用页映射。</p>
-<ol start="3">
-<li>混合映射</li>
-</ol>
-<p>一个逻辑块映射到任意一个物理块，但在块中，每个页的偏移并不是固定不动的，块内采用页映射的方式，一个逻辑块中的逻辑页可以映射到对应物理块中的任意页	</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221339509.png" alt="image-20230505155212522"></p>
-<p>SSD内部维护了一张逻辑页到物理页地址转换的映射表（Map Table）。用户每写入一个逻辑页，就会产生一个新的映射关系，这个映射关系会加入（第一次写）或者更改（覆盖写）映射表。<strong>当读取某个逻辑页时，SSD首先查找映射表中该逻辑页对应的物理页，然后再访问闪存读取相应的用户数据。</strong></p>
-<p>对于绝大多数SSD，我们可以看到上面都有板载DRAM，其主要作用就是存储这张映射表。当然也有放到内存和闪存中的。</p>
-<p>映射表在SSD掉电前，是需要把它写入到闪存中去的。下次上电初始化时，需要把它从闪存中部分或全部加载到SSD的缓存（DRAM）中。随着SSD的写入，缓存中的映射表不断增加新的映射关系，为防止异常掉电导致这些新的映射关系丢失，<strong>SSD的固件不仅仅只在正常掉电前把这些映射关系刷新到闪存中去，而是在SSD运行过程中，按照一定策略把映射表写进闪存。这样，即使发生异常掉电，丢失的也只是一小部分映射关系，上电时可以较快地重建这些映射关系。</strong></p>
-<h3 id="垃圾回收"><a href="#垃圾回收" class="headerlink" title="垃圾回收"></a>垃圾回收</h3><p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305051612120.png" alt="image-20230505161218003"></p>
-<p>Block5为OP空间，其他闪存空间均满，那么继续写入时往OP空间1，2，3，4页写入，原1，2，3，4页成为垃圾数据。</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305051136941.png" alt="image-20230505113637887"></p>
-<p>Block x和Block y中ABC，DEFG为有效数据，垃圾回收就是把一个或者几个Block上的有效数据搬出来集中写到某个空闲Block上（比如Block z）。当这些Block上的有效数据都搬走后，FTL便能擦除这些Block，然后又能把这些Block拿出来供SSD写入新的数据了。</p>
-<p>SSD越写越慢。没错，其实这是有科学依据的：可用闪存空间富裕时，SSD是无须做GC的，因为总有空闲的空间可写。SSD使用早期，由于没有触发GC，无须额外的读写，所以速度很快。慢慢地会发现SSD变慢了，主要是因为SSD需要做GC。</p>
-<p>垃圾回收时机：</p>
-<ol>
-<li>SSD没有多少可用的闪存块</li>
-<li>SSD空闲（Idle）的时候</li>
-</ol>
-<h3 id="写放大"><a href="#写放大" class="headerlink" title="写放大"></a>写放大</h3><p>由于GC的存在，就有一个问题，用户要写入一定的数据，SSD为了腾出空间写这些数据，需要额外的做一些数据的搬移，也就是额外的写，最后往往导致SSD往闪存中写入的数据量比实际用户写入SSD的数据量多。因此，SSD中有个重要参数，就是写放大（WA, Write Amplification）：</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305051618180.png" alt="image-20230505161804137"></p>
-<p>写放大越大，意味着额外写入闪存的数据越多，一方面磨损闪存，减少SSD寿命，另一方面，写入这些额外数据会占用底层闪存带宽，影响SSD性能。因此，SSD设计的一个目标是让WA尽量小。减小写放大，可以使用前面提到的压缩办法（压缩用户数据，主控决定），顺序写也可以减小写放大（垃圾集中，但顺序写可遇不可求，取决于用户Workload），还有就是增大OP（这个可控）。</p>
-<h3 id="SLC-Cache"><a href="#SLC-Cache" class="headerlink" title="SLC Cache"></a>SLC Cache</h3><p>我们可以用TLC模拟SLC，对TLC的电子数量不进行那么精细的划分（SLC和TLC都是浮栅，存多少bit，是SLC还是TLC本质取决于对电子数量的划分）。这样就可以提高写入速度同时保证容量。每次写入TLC模拟的SLC时，速度较高，当硬盘闲置的时候再把这部分区域写入TLC。</p>
-<p>模拟SLC容量会随着你的硬盘占用的空间的增多而减少。当模拟SLC用完后，主控只能想TLC空间写入数据，此时速度会下降。	</p>
-<p>当然模拟SLC，一次只能存1bit那么对同一数据，SLC模拟肯定擦写次数更多那么磨损也更大。</p>
-<h2 id="硬盘总线和接口"><a href="#硬盘总线和接口" class="headerlink" title="硬盘总线和接口"></a>硬盘总线和接口</h2><p>硬盘协议、总线、接口搭配情况</p>
-<p><img src="/../../../BaiduSyncdisk/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%89%87/%E7%A1%AC%E7%9B%98%E6%80%BB%E7%BA%BF%E5%92%8C%E6%8E%A5%E5%8F%A3.jpg" alt="硬盘总线和接口"></p>
-<div align="center">	图：硬盘总线和接口</div>
-
-<p>总线：SATA，PCIe等</p>
-<p>接口：SATA，M.2，PCIe等</p>
-<p><img src="/../../../BaiduSyncdisk/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%89%87/SATA%E7%BA%BF.jpg" alt="SATA线"></p>
-<div align="center">	图：SATA线</div>
-
-<p><img src="/../../../BaiduSyncdisk/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%89%87/SATA%E6%8E%A5%E5%8F%A3.jpg" alt="SATA接口"></p>
-<div align="center">	图：SATA接口</div>
-
-<p><img src="/../../../BaiduSyncdisk/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%89%87/PCIe%E6%8E%A5%E5%8F%A3.jpg" alt="PCIe接口"></p>
-<div align="center">	图：PCIe接口</div>
-
-<p>PCIe总线被写在电路板上。</p>
-<p>注意：PCIe为黑色，若为白色则为PCI插槽（速度较慢）</p>
-<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1n4411m7HX/?spm_id_from=333.999.0.0&vd_source=7f8c0def2d7fa1febe6d3255a7889bca">【硬件科普】PCIe到底是个什么东西？他在电脑里是干什么的？_哔哩哔哩_bilibili</a></p>
-<p><a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1cJ411K7HW/?spm_id_from=333.999.0.0&vd_source=7f8c0def2d7fa1febe6d3255a7889bca">【硬件科普】电脑主板右下角的散热片下面究竟隐藏着什么？详解主板南桥芯片组的功能和作用_哔哩哔哩_bilibili</a></p>
-<h2 id="其他知识"><a href="#其他知识" class="headerlink" title="其他知识"></a>其他知识</h2><h3 id="2-4-1脱机"><a href="#2-4-1脱机" class="headerlink" title="2.4.1	脱机"></a>2.4.1	脱机</h3><p>如果磁盘处于脱机状态，则必须将其联机，然后才能将其初始化或在其上创建卷。</p>
-<p>如果没连接数据线或者数据线未连接好会出现脱机情况</p>
-<h3 id="定位数据"><a href="#定位数据" class="headerlink" title="定位数据"></a>定位数据</h3><p>定位数据：柱面（磁道），扇区，磁头（盘面）【CHS寻址】</p>
-<h3 id="硬盘格式"><a href="#硬盘格式" class="headerlink" title="硬盘格式"></a>硬盘格式</h3><p>NTFS：适合硬盘</p>
-<p>exFat：适合U盘</p>
-<p>Fat16：ESP分区采用的格式</p>
-<h1 id="几种分区"><a href="#几种分区" class="headerlink" title="几种分区"></a>几种分区</h1><p>启动分区：很简单，存放操作系统文件的的分区</p>
-<p>系统分区：Bootmgr所在分区</p>
-<p>活动分区：一块硬盘一个活动分区，等同于系统分区</p>
-<h1 id="两种磁盘分区形式（MBR和GPT）"><a href="#两种磁盘分区形式（MBR和GPT）" class="headerlink" title="两种磁盘分区形式（MBR和GPT）"></a>两种磁盘分区形式（MBR和GPT）</h1><h2 id="MBR"><a href="#MBR" class="headerlink" title="MBR"></a>MBR</h2><h3 id="MBR结构"><a href="#MBR结构" class="headerlink" title="MBR结构"></a>MBR结构</h3><p>主引导记录（MBR，Master Boot Record），位于主引导扇区(硬盘第一个扇区0柱，0面，1扇区,512字节)</p>
-<p><img src="/../../../BaiduSyncdisk/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%89%87/%E4%B8%BB%E5%BC%95%E5%AF%BC%E8%AE%B0%E5%BD%95.jpg" alt="主引导记录"></p>
-<div align="center">	图：主引导记录</div>
-
-<p><strong>代码区</strong>：</p>
-<ol>
-<li><p>扫描分区表查找活动分区；</p>
-</li>
-<li><p>寻找活动分区的起始扇区；</p>
-</li>
-<li><p>将活动分区的引导扇区读到内存；</p>
-</li>
-<li><p>执行引导扇区的运行代码。</p>
-</li>
-</ol>
-<p><strong>硬盘分区表：</strong></p>
-<p><strong>DPT占64字节（对四个分区信息进行描述，每个分区占16字节）</strong>。<strong>扩展分区也要占一个主分区位置</strong>，可划分无限个逻辑分区，每一个逻辑分区都有一个扩展引导记录EBR（和GPT类似），EBR第一项指向本身扇区，第二项指向下一个扇区（链式）。</p>
-<p><strong>结束标志位：</strong></p>
-<p>识别是否位mbr，以55aa结尾bios才会将其识别mbr载入内存</p>
-<p><img src="/../../../BaiduSyncdisk/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%89%87/Snipaste_2022-10-16_16-55-10.jpg" alt="Snipaste_2022-10-16_16-55-10"></p>
-<h3 id="MBR特点"><a href="#MBR特点" class="headerlink" title="MBR特点"></a>MBR特点</h3><ol>
-<li>能够访问的最大磁盘容量：2.19TB</li>
-<li>主分区不能超过4个（因为分区表最多64字节，一个分区占有16字节）</li>
-<li>可支持64为和32为操作系统</li>
-</ol>
-<h2 id="GPT（也叫GUID）"><a href="#GPT（也叫GUID）" class="headerlink" title="GPT（也叫GUID）"></a>GPT（也叫GUID）</h2><h3 id="GPT结构"><a href="#GPT结构" class="headerlink" title="GPT结构"></a>GPT结构</h3><p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221339371.jpg" alt="GPT"></p>
-<div align="center">	图：GPT结构</div>
-
-<h3 id="GPT的特点"><a href="#GPT的特点" class="headerlink" title="GPT的特点"></a>GPT的特点</h3><ol>
-<li><p>所创建的分区都是主分区</p>
-</li>
-<li><p>理论上可以无限划分分区，但windows限制为128个</p>
-</li>
-<li><p>访问最大磁盘容量:94亿TB</p>
-</li>
-<li><p>只支持64位操作系统</p>
-</li>
-<li><p>磁盘为GPT格式会自动创建两个分区：</p>
-</li>
-</ol>
-<p>​			esp分区：引导系统（活动分区&#x2F;系统分区）</p>
-<p>​			msr分区：没啥用</p>
-<h2 id="两种分区格式的转换"><a href="#两种分区格式的转换" class="headerlink" title="两种分区格式的转换"></a>两种分区格式的转换</h2><p>要将磁盘从 MBR 转换为 GPT，首先必须从磁盘删除所有卷，擦除磁盘上的所有内容，反之亦然</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221339879.jpg" alt="GPT转MBR"></p>
-<div align="center">	图：GPT转MBR</div>
-
-<h2 id="两种分区格式对应两种BIOS"><a href="#两种分区格式对应两种BIOS" class="headerlink" title="两种分区格式对应两种BIOS"></a>两种分区格式对应两种BIOS</h2><p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221339559.jpg" alt="对应"></p>
-<div align="center">	图：分区格式-BIOS类型-系统对应图</div>
-
-<ol>
-<li>Legacy-MBR</li>
-<li>UEFI-GUID</li>
-</ol>
-<p>机房中的主板既支持UEFI又支持Legacy</p>
-<p><img src="/../../../BaiduSyncdisk/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%89%87/%E4%B8%BB%E6%9D%BF%E6%94%AF%E6%8C%81.jpg" alt="主板支持"></p>
-<div align="center">	图：主板支持UEFI和Legacy</div>
-
-<h1 id="操作系统是如何启动的"><a href="#操作系统是如何启动的" class="headerlink" title="操作系统是如何启动的"></a>操作系统是如何启动的</h1><h2 id="MBR-1"><a href="#MBR-1" class="headerlink" title="MBR"></a>MBR</h2><ol>
-<li><p>按下开机键</p>
-</li>
-<li><p>上电复位初始化，cs寄存器被初始化为bios地址</p>
-</li>
-<li><p>bios自检</p>
-</li>
-<li><p>bios到硬盘的主引导扇区加载一段程序（代码区boot loader）到内存固定位置交给cpu</p>
-</li>
-<li><p>程序通过mbr分区表查找活动分区（0柱，1面，1扇）</p>
-</li>
-<li><p>活动分区的引导扇区（第一个扇区）执行PBR（PBR是各个分区自己的引导记录，又称分区引导记录）</p>
-<p>(只能有一个活动分区，修复启动菜单，就会把其它分区中的系统添加进活动分区的引导记录里。这样开机时就会有选择系统的选项。)</p>
-</li>
-<li><p>PBR在搜索分区内的BOOTMGR（bootmgr:启动管理器。Bootmgr是Boot Manager的缩写，是在Windows Vista、Windows 7、windows 8&#x2F;8.1和windows 10中使用的新的启动管理器，以代替Windows NT系列操作系统(Windows XP、Windows 2003)中的启动管理器–NTLDR。）</p>
-</li>
-<li><p>bootmgr读取指定路径上的BCD文件Boot Configuration Data（相当于一个系统数据库） ，也就是”启动配置数据”如果存在着多个操作系统并且选择操作系 统的等待时间不为0的话，这时就会在显示器上显示操作系统的选择界面。</p>
-</li>
-<li><p>选择操作系统，进入启动分区寻找操作系统</p>
-</li>
-<li><p>找到操作系统内核</p>
-</li>
-<li><p>进入操作系统</p>
-</li>
-</ol>
-<h2 id="GUID"><a href="#GUID" class="headerlink" title="GUID"></a>GUID</h2><ol>
-<li><p>按下开机键</p>
-</li>
-<li><p>上电复位初始化，cs寄存器被初始化为bios地址</p>
-</li>
-<li><p>进入UEFI</p>
-</li>
-<li><p>进入ESP分区</p>
-</li>
-<li><p>找到BCD</p>
-</li>
-</ol>
-<h1 id="安装两个操作系统"><a href="#安装两个操作系统" class="headerlink" title="安装两个操作系统"></a>安装两个操作系统</h1><h2 id="MBR-2"><a href="#MBR-2" class="headerlink" title="MBR"></a>MBR</h2><ol>
-<li>创建三个主分区，其中一个为活动分区</li>
-<li>在另外两个分区中正常安装系统</li>
-</ol>
-<p>注意：</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221339766.jpg" alt="系统安装"></p>
-<div align="center">	图：系统安装</div>
-
-<p>引导驱动器也就是你的活动分区</p>
-<p>安装磁盘位置就是你想把系统安装到哪里</p>
-<h2 id="GUID-1"><a href="#GUID-1" class="headerlink" title="GUID"></a>GUID</h2><ol>
-<li>创建两个主分区</li>
-<li>在两个主分区中正常安装系统</li>
-</ol>
-<p>注意：上述中的活动分区这里默认为ESP分区</p>
-<h1 id="注册表"><a href="#注册表" class="headerlink" title="注册表"></a>注册表</h1><p>注册表是windows一个重要的数据库	，用于存储<strong>系统</strong>和<strong>应用程序</strong>的设置信息。如果注册表中的环境信息或驱动信息丢失，就会造成windows运行错误。</p>
-<p>从windows启动开始，到用户登录、应用程序运行等所有操作都需要以注册表中记录的信息为基础。</p>
-<p>在windows运行中系统环境会随着应用程序的安装而改变，改变后的环境设置又保存到注册表中。所以用户可以通过编辑注册表改变windows环境。</p>
-<p><img src="/../../../BaiduSyncdisk/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%89%87/%E6%B3%A8%E5%86%8C%E8%A1%A8.jpg" alt="注册表"></p>
-<div align="center">	图：注册表示意图</div>
-
-<p>系统设置：</p>
-<p>注册表保存着系统设置的相关数据，启动windows会从注册表中读入系统设置数据。如果注册表受损，Windows就会发生错误，还有可能造成崩溃。</p>
-<p>应用程序：</p>
-<p>操作系统完成启动后，Windows和各种应用程序、服务等就会参照注册表中的信息运行。在安装各种应用程序的时候，会在注册表中登记程序运行时所需的信息。在Windows中卸载程序，就会在卸载过程中删除注册表中记录的相关信息。</p>
-<h1 id="北桥和南桥"><a href="#北桥和南桥" class="headerlink" title="北桥和南桥"></a>北桥和南桥</h1><p>北桥：连接cpu，内存，显卡</p>
-<p>南桥：连接IO设备，控制I&#x2F;O芯片</p>
-<h1 id="晶振和时钟信号芯片"><a href="#晶振和时钟信号芯片" class="headerlink" title="晶振和时钟信号芯片"></a>晶振和时钟信号芯片</h1><p><img src="/../../../BaiduSyncdisk/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%89%87/%E6%97%B6%E9%92%9F%E4%BF%A1%E5%8F%B7.jpg" alt="时钟信号"></p>
-<p>提示：AND为与运算，XOR为异或运算</p>
-<p>上述电路，当A&#x3D;B&#x3D;1时，Q&#x3D;0。</p>
-<p>当输入信号发生变化时，逻辑门（AND，XOR）不会立刻对输入变化做出反应，存在延迟。</p>
-<p>现在如果B变为0，XOR会马上感知到第二个输入B从1变为0，但由于延迟，AND的输出状态不会立刻改变，XOR的第一个输入沿用AND的旧状态1，所以XOR输出1，即Q&#x3D;1。</p>
-<p>受延迟影响，一段时间后AND才会对B的变化做出反应，随后产生新的输出状态0并传递到XOR，XOR的输出才会再度变为0，即Q&#x3D;0。</p>
-<p>只要电路中存在延迟，上述故障就会发生。</p>
-<p>为避免这种故障重复出现，我们向B端添加一个边沿触发器CLK</p>
-<p><img src="/../../../BaiduSyncdisk/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86/%E5%9B%BE%E7%89%87/Snipaste_2022-10-16_18-27-15.jpg" alt="Snipaste_2022-10-16_18-27-15"></p>
-<p>边沿触发器的作用是，只有当CLK的输入从0变为1时，左端的输出才会影响Q的输出。这样，所有的延迟都会被边沿触发器屏蔽掉，Q端的输出才会变得稳定。</p>
-<p><strong>目前，大多数CPU由同步时序电路°构成，而时序电路由各种逻辑门组成，逻辑门需要在一段时间后才会对输入做出反应，因此需要“时钟”来对冲这种延迟。</strong></p>
-<p>当然，CPU也可以不使用时钟。</p>
-<p>用时钟的CPU被称作“同步CPU(synchronous CPU)”，不用时钟的CPU被称作“异步CPU(asynchronous CPU) ”。</p>
-<p>通常，异步CPU比同步CPU更快，因为异步CPU接到输入立马就响应然后输出，不需要同步等待其他信号，所消耗的时间也就更少。</p>
-<p>不过异步CPU设计起来极为复杂，所以反而不如同步CPU常见。</p>
-<p><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/21981280/answer/2659095195">https://www.zhihu.com/question/21981280/answer/2659095195</a></p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221339799.jpg" alt="晶振和时钟芯片"></p>
-<div align="center">	图：晶振和时钟芯片</div>
-
-<h2 id="晶振"><a href="#晶振" class="headerlink" title="晶振"></a>晶振</h2><p>将石英切割成类似音叉的形状，施加交流电会产生机械振动，振动同时两端输出对应频率的振动电压，这个电压非常稳定。我们将这个东西封装起来就是晶振</p>
-<p>晶振在电路中的作用是为系统提供基本的时钟信号。</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221339674.png" alt="image-20230517092256989"></p>
-<p>上电启振时，反相器会产生各种频率的信号。晶振有一个特性：当加在晶振上的信号频率，等于他的谐振频率（f0）的时候，他的阻抗是最小的，当为其他的信号频率时，晶振阻抗很大。所以这个晶振就会把反相器输出的各种频率的信号进行筛选，只剩下等于他自身谐振频率的这个信号，这个信号加在相向器的输入从而在反相器的输出就可以看到稳定的振荡信号，最贴近晶振振荡的波形会作用在晶振，然后产生新的振荡波形反馈回放大器，然后再次放大，然后继续作用在晶振上，经过多轮循环后，最终放大器输出的波形，和晶振振荡的波形变成相同也就是谐振频率。</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305170930402.png" alt="image-20230517093010341"></p>
-<p>通过晶振的切割工艺将晶振做成最高1秒钟振荡32,768次，接下来搭建一套分频器系统，输入32,768Hz频率的脉冲信号，第一个分频器输出除以2等于每秒16,384个脉冲信号，在下一个分频器同样遵循除以2继续输出，连续传输到15次，这时，输出频率正好是1Hz的脉冲信号</p>
-<p>从最开始的晶振振荡32,768Hz频率最后实现非常规律平稳的输出一秒一个脉冲信号，利用这个信号再告诉马达动一次马达接着秒针就能看到平均一秒一秒的走起来了</p>
-<h1 id="云"><a href="#云" class="headerlink" title="云"></a>云</h1><p>云计算（服务）：厂商把自己的数据中心资源按需租用给客户，协助他们在云端进行处理的服务，其中的云端是指地理概念，如果一家企业买了阿里云服务来部署他的系统，那么这个系统的计算和处理就发生在阿里云数据中心的机房里</p>
-<p>在云计算出现前，企业搭建IT系统一般是本地部署，缺点有：搭建流程长，投入产出比低，成本高（全流程自己部署），无法满足弹性需求（例如双11访问量激增，你购买了很多服务器，但是平常的日子这些服务器就闲置了），安全性低（需要自己备份，防范网络攻击）。</p>
-<p>三种云计算服务类型：</p>
-<p>SaaS（Software as aService）：软件作为服务出售（软件+平台+基础设置）</p>
-<p>PaaS（Platform as a Service）：平台作为服务出售（平台+基础设施）</p>
-<p>IaaS（Infrastructure as a Service）：基础设施作为服务出售（基础设施）</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221339292.png" alt="image-20230517102337811"></p>
-<p>三种云部署模型：</p>
-<p>公有云：由公有云厂商来提供云服务（卖给别人）</p>
-<p>私有云：由企业自己搭建系统环境（公司内部自己使用）</p>
-<p>混合云：上述两种的混合体（解决安全性问题）</p>
-<p>混合云：</p>
-<p><img src="https://gitee.com/cj2564686478/note-img/raw/master/Img_Typora/202305221339713.png" alt="image-20230517102833117"></p>
-<p>核心数据和应用放在私有环境中，硬件资源和基础软件配置托管给公有云厂商（企业既可以选择利用私有云的安全性，将重要数据保存在本地，又可以利用公有云的计算资源来完成更难的工作）</p>
-<h1 id="微处理器"><a href="#微处理器" class="headerlink" title="微处理器"></a>微处理器</h1><p>用作通用资料时叫做：中央处理器（CPU）；</p>
-<p>专用于图形资料处理时叫做：图形处理器（GPU）；</p>
-<h1 id="处理器架构"><a href="#处理器架构" class="headerlink" title="处理器架构"></a>处理器架构</h1><p>处理器架构就是处理器的硬件架构，称为微架构。是一堆硬件电路，去实现指令集所规定的操作运算。</p>
-<h1 id="指令集架构"><a href="#指令集架构" class="headerlink" title="指令集架构"></a>指令集架构</h1><p>指令被编码为由一个或多个字节序列组成的二进制格式。一个处理器支持的指令（抽象）和<strong>指令的字节级编码</strong>称（具体）为它的ISA</p>
-<p>为了方便人类操作指令集，发明了汇编语言来描述指令集。汇编语言类似人类语言，读起来方便多了。</p>
-<p>ISA在编译器编写者和处理器设计人员之间提供了一个概念抽象层，编译器编写者只需要知道允许哪些指令，以及它们是如何编码的;而处理器设计者必须建造出执行这些指令的处理器。</p>
-<p><a target="_blank" rel="noopener" href="https://www.zhihu.com/question/23474438">https://www.zhihu.com/question/23474438</a></p>
-<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/422828053">联想硬盘保护系统EDU8.0.2及9.0安装教程(支持Win10) - 知乎 (zhihu.com)</a></p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_46695411/article/details/126439675">认识硬盘的总线协议和接口_韩xinwu的博客-CSDN博客_磁盘总线</a></p>
-<p><a target="_blank" rel="noopener" href="https://learn.microsoft.com/zh-cn/windows/">Windows 文档 | Microsoft Learn</a></p>
-<p><a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/37977078">关于UEFI启动+GPT分区的一些经验 - 知乎 (zhihu.com)</a></p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/lc_2418059806/article/details/122731221">BIOS搭配MBR&#x2F;GPT的开机流程_lc_2013的博客-CSDN博客_bios gpt启动</a><a target="_blank" rel="noopener" href="https://baike.so.com/doc/6827699-7044894.html">https://baike.so.com/doc/6827699-7044894.html</a></p>
-<p><a target="_blank" rel="noopener" href="https://blog.csdn.net/lijie45655/article/details/89366372">操作系统引导详细过程_冰清-小魔鱼的博客-CSDN博客_系统引导方式</a></p>
- 
-      <!-- reward -->
-      
-    </div>
     
-
-    <!-- copyright -->
+  
     
-    <footer class="article-footer">
-       
-    </footer>
-  </div>
-
-   
-   
-  
-</article>
-
-    
-  </article>
-  
-
-  
-</section>
-</div>
-
-      <footer class="footer">
-  <div class="outer">
-    <ul>
-      <li>
-        Copyrights &copy;
-        2015-2023
-        <i class="ri-heart-fill heart_icon"></i> CJ
+      <li class="menu-item">
+        <a href='https://github.com/2564686478' class="menu-item-link" target="_blank">
+          <i class="fa fa-github fa-2x"></i>
+        </a>
       </li>
-    </ul>
-    <ul>
-      <li>
-        
-      </li>
-    </ul>
-    <ul>
-      <li>
-        
-        
-        <span>
-  <span><i class="ri-user-3-fill"></i>访问人数:<span id="busuanzi_value_site_uv"></span></span>
-  <span class="division">|</span>
-  <span><i class="ri-eye-fill"></i>浏览次数:<span id="busuanzi_value_page_pv"></span></span>
-</span>
-        
-      </li>
-    </ul>
-    <ul>
-      
-    </ul>
-    <ul>
-      
-    </ul>
-    <ul>
-      <li>
-        <!-- cnzz统计 -->
-        
-        <script type="text/javascript" src='https://s9.cnzz.com/z_stat.php?id=1278069914&amp;web_id=1278069914'></script>
-        
-      </li>
-    </ul>
-  </div>
-</footer>    
-    </main>
-    <div class="float_btns">
-      <div class="totop" id="totop">
-  <i class="ri-arrow-up-line"></i>
+    
+	</ul>
+</header>
+
+	
+<div id="sidebar">
+	<button id="sidebar-toggle" class="toggle" ><i class="fa fa-arrow-right " aria-hidden="true"></i></button>
+	
+	<div id="site-toc">
+		<input id="search-input" class="search-input" type="search" placeholder="按回车全站搜索">
+		<div id="tree">
+			
+
+			
+							<ul>
+								<li class="file">
+									<a href="/2023/05/22/408%E9%94%99%E9%A2%98/">
+                     
+										    408错题
+                     
+									</a>
+								</li>
+								<div class="article-toc" style="display: none;"></div>
+							</ul>
+			
+		</div>
+	</div>
 </div>
 
-<div class="todark" id="todark">
-  <i class="ri-moon-line"></i>
-</div>
-
-    </div>
-    <aside class="sidebar on">
-      <button class="navbar-toggle"></button>
-<nav class="navbar">
-  
-  <div class="logo">
-    <a href="/"><img src="/images/ayer-side.svg" alt="CJ‘s Blog"></a>
-  </div>
-  
-  <ul class="nav nav-main">
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/">主页</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/archives">归档</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/categories">分类</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/tags">标签</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/tags/%E6%97%85%E8%A1%8C/">旅行</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" target="_blank" rel="noopener" href="http://shenyu-vip.lofter.com">摄影</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/friends">友链</a>
-    </li>
-    
-    <li class="nav-item">
-      <a class="nav-item-link" href="/2019/about">关于我</a>
-    </li>
-    
-  </ul>
-</nav>
-<nav class="navbar navbar-bottom">
-  <ul class="nav">
-    <li class="nav-item">
-      
-      <a class="nav-item-link nav-item-search"  title="搜索">
-        <i class="ri-search-line"></i>
-      </a>
-      
-      
-      <a class="nav-item-link" target="_blank" href="/atom.xml" title="RSS Feed">
-        <i class="ri-rss-line"></i>
-      </a>
-      
-    </li>
-  </ul>
-</nav>
-<div class="search-form-wrap">
-  <div class="local-search local-search-plugin">
-  <input type="search" id="local-search-input" class="local-search-input" placeholder="Search...">
-  <div id="local-search-result" class="local-search-result"></div>
-</div>
-</div>
-    </aside>
-    <div id="mask"></div>
-
-<!-- #reward -->
-<div id="reward">
-  <span class="close"><i class="ri-close-line"></i></span>
-  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
-  <div class="reward-box">
-    
-    <div class="reward-item">
-      <img class="reward-img" src="/images/alipay.jpg">
-      <span class="reward-type">支付宝</span>
-    </div>
-    
-    
-    <div class="reward-item">
-      <img class="reward-img" src="/images/wechat.jpg">
-      <span class="reward-type">微信</span>
-    </div>
-    
-  </div>
-</div>
-    
-<script src="/js/jquery-3.6.0.min.js"></script>
- 
-<script src="/js/lazyload.min.js"></script>
-
-<!-- Tocbot -->
-
-<script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
-<link
-  rel="stylesheet"
-  href="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.css"
-/>
-<script src="https://cdn.staticfile.org/justifiedGallery/3.8.1/js/jquery.justifiedGallery.min.js"></script>
-
-<script src="/dist/main.js"></script>
-
-<!-- ImageViewer -->
- <!-- Root element of PhotoSwipe. Must have class pswp. -->
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    <!-- Background of PhotoSwipe. 
-         It's a separate element as animating opacity is faster than rgba(). -->
-    <div class="pswp__bg"></div>
-
-    <!-- Slides wrapper with overflow:hidden. -->
-    <div class="pswp__scroll-wrap">
-
-        <!-- Container that holds slides. 
-            PhotoSwipe keeps only 3 of them in the DOM to save memory.
-            Don't modify these 3 pswp__item elements, data is added later on. -->
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-
-        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
-        <div class="pswp__ui pswp__ui--hidden">
-
-            <div class="pswp__top-bar">
-
-                <!--  Controls are self-explanatory. Order can be changed. -->
-
-                <div class="pswp__counter"></div>
-
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                <button class="pswp__button pswp__button--share" style="display:none" title="Share"></button>
-
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
-                <!-- element will get class pswp__preloader--active when preloader is running -->
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                        <div class="pswp__preloader__cut">
-                            <div class="pswp__preloader__donut"></div>
-                        </div>
-                    </div>
+	<!-- 引入正文 -->
+	<div id="content">
+		<div id="index">
+	
+		<div class="index-li">
+			<a href="/2023/05/22/408%E9%94%99%E9%A2%98/">
+				<h2 class="index-title">
+					408错题
+				</h2>
+				<div class="index-brief">
+					https://www.nowcoder.com/questionTerminal/2d29e10308f44ec686f482e224d29fed
+https://blog.csdn.net/weixin_45697774/article/details/106853306?ops_request
+					...
+				</div>
+			</a>
+                <div class="article-meta">
+				    <span>2023-05-22</span>
+                    
+                            
+                    
                 </div>
-            </div>
-
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div>
-            </div>
-
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-
-        </div>
-
-    </div>
-
+		</div>	
+	
+	
+	<div id="index-paginator">
+		
+	</div>
 </div>
 
-<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.css">
-<link rel="stylesheet" href="https://cdn.staticfile.org/photoswipe/4.1.3/default-skin/default-skin.min.css">
-<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe.min.js"></script>
-<script src="https://cdn.staticfile.org/photoswipe/4.1.3/photoswipe-ui-default.min.js"></script>
+	</div>
+	<div id="footer">
+	<p>
+	©<span id="footerYear-start"></span>-<span id="footerYear-end"></span>
+	<a href="/">CJ</a> 
+	
+	
+	<br>
+	Theme <a href="//github.com/wujun234/hexo-theme-tree" target="_blank">Tree</a>
+	by <a href="//github.com/wujun234" target="_blank">WuJun</a>
+	Powered by <a href="//hexo.io" target="_blank">Hexo</a>
+	</p>
+</div>
 
-<script>
-    function viewer_init() {
-        let pswpElement = document.querySelectorAll('.pswp')[0];
-        let $imgArr = document.querySelectorAll(('.article-entry img:not(.reward-img)'))
 
-        $imgArr.forEach(($em, i) => {
-            $em.onclick = () => {
-                // slider展开状态
-                // todo: 这样不好，后面改成状态
-                if (document.querySelector('.left-col.show')) return
-                let items = []
-                $imgArr.forEach(($em2, i2) => {
-                    let img = $em2.getAttribute('data-idx', i2)
-                    let src = $em2.getAttribute('data-target') || $em2.getAttribute('src')
-                    let title = $em2.getAttribute('alt')
-                    // 获得原图尺寸
-                    const image = new Image()
-                    image.src = src
-                    items.push({
-                        src: src,
-                        w: image.width || $em2.width,
-                        h: image.height || $em2.height,
-                        title: title
-                    })
-                })
-                var gallery = new PhotoSwipe(pswpElement, PhotoSwipeUI_Default, items, {
-                    index: parseInt(i)
-                });
-                gallery.init()
-            }
-        })
-    }
-    viewer_init()
-</script> 
-<!-- MathJax -->
-
-<!-- Katex -->
-
-<!-- busuanzi  -->
- 
-<script src="/js/busuanzi-2.3.pure.min.js"></script>
- 
-<!-- ClickLove -->
-
-<!-- ClickBoom1 -->
-
-<!-- ClickBoom2 -->
-
-<!-- CodeCopy -->
- 
-<link rel="stylesheet" href="/css/clipboard.css">
- <script src="https://cdn.staticfile.org/clipboard.js/2.0.10/clipboard.min.js"></script>
-<script>
-  function wait(callback, seconds) {
-    var timelag = null;
-    timelag = window.setTimeout(callback, seconds);
-  }
-  !function (e, t, a) {
-    var initCopyCode = function(){
-      var copyHtml = '';
-      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
-      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
-      copyHtml += '</button>';
-      $(".highlight .code pre").before(copyHtml);
-      $(".article pre code").before(copyHtml);
-      var clipboard = new ClipboardJS('.btn-copy', {
-        target: function(trigger) {
-          return trigger.nextElementSibling;
-        }
-      });
-      clipboard.on('success', function(e) {
-        let $btn = $(e.trigger);
-        $btn.addClass('copied');
-        let $icon = $($btn.find('i'));
-        $icon.removeClass('ri-file-copy-2-line');
-        $icon.addClass('ri-checkbox-circle-line');
-        let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPIED';
-        
-        wait(function () { // 等待两秒钟后恢复
-          $icon.removeClass('ri-checkbox-circle-line');
-          $icon.addClass('ri-file-copy-2-line');
-          $span[0].innerText = 'COPY';
-        }, 2000);
-      });
-      clipboard.on('error', function(e) {
-        e.clearSelection();
-        let $btn = $(e.trigger);
-        $btn.addClass('copy-failed');
-        let $icon = $($btn.find('i'));
-        $icon.removeClass('ri-file-copy-2-line');
-        $icon.addClass('ri-time-line');
-        let $span = $($btn.find('span'));
-        $span[0].innerText = 'COPY FAILED';
-        
-        wait(function () { // 等待两秒钟后恢复
-          $icon.removeClass('ri-time-line');
-          $icon.addClass('ri-file-copy-2-line');
-          $span[0].innerText = 'COPY';
-        }, 2000);
-      });
-    }
-    initCopyCode();
-  }(window, document);
-</script>
- 
-<!-- CanvasBackground -->
-
-<script>
-  if (window.mermaid) {
-    mermaid.initialize({ theme: "forest" });
-  }
+<script type="text/javascript">
+	document.getElementById('footerYear-start').innerHTML = new Date().getFullYear() + '';
 </script>
 
+<script type="text/javascript">
+	document.getElementById('footerYear-end').innerHTML = new Date().getFullYear() + '';
+</script>
 
-    
-    
-
-  </div>
+	<button id="totop-toggle" class="toggle"><i class="fa fa-angle-double-up" aria-hidden="true"></i></button>
 </body>
-
 </html>
